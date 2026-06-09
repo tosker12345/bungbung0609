@@ -1,0 +1,11 @@
+# https://yunsangjun.github.io/kubernetes/2018/05/25/pull-image-from-private-registry.html
+apiVersion: v1
+kind: Secret
+type: kubernetes.io/dockerconfigjson
+metadata:
+  creationTimestamp: "2022-09-14T04:37:05Z"
+  name: regcred
+  resourceVersion: "116566"
+  uid: 1855d178-04bb-4a1c-8df9-2df36c369f66
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJyZWdpc3RyeS5ha2FtaXIuY29tIjp7InVzZXJuYW1lIjoiYWthYmFzc21hbiIsInBhc3N3b3JkIjoiYWthZGt6a2FsZm0wMzE5QCIsImVtYWlsIjoiYmFzc21hbkBha2FtaXIuY29tIiwiYXV0aCI6IllXdGhZbUZ6YzIxaGJqcGhhMkZrYTNwcllXeG1iVEF6TVRsQSJ9fX0=
